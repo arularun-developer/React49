@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(14, 13, 15);
+   
+}
+#title{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.card {
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: white;
+    word-spacing:3px ;
+
+}
+
+.insiderate {
+    text-align: center;
+    font-size: xx-large;
+}
+.insideheader{
+    text-align: center;
+    font-size:larger
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 5rem 0 5rem;
+
+  }
+   
+button{
+    width:200px;
+    height:50px;
+    border-radius: 20px;
+    border:2px solid;
+    font-weight: bold;
+    font-size:25px;
+    background-color: rgba(231, 19, 19, 0.25);
+    padding-right:5px;
+    outline-color: none;
+   
+}
+
+  
+.disable {
+    color: rgb(150, 149, 149);
+}
+.insideheader {
+    color: rgb(150, 149, 149);
+}
